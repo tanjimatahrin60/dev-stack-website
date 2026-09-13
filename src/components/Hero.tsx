@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
     <section className="container mx-auto">
-      <div className="hero items-start pt-8 pb-8 lg:pt-10 lg:pb-10">
-        <div className="hero-content flex-col-reverse lg:flex-row-reverse">
+      <div className="hero min-h-screen">
+        <div className="hero-content w-full max-w-none justify-between flex-col-reverse lg:flex-row-reverse">
           <img alt="banner-img" src="/banner-stack.png" />
 
           <div>
@@ -13,7 +13,7 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className="text-[#475569] text-sm lg:text-lg py-5 text-center lg:text-left">
+            <p className="text-[#475569] text-sm lg:text-lg py-6 text-center lg:text-left">
               Explore frontend, backend, database, and tooling options, compare
               them side by side, and put together the stack that fits your next
               project.
