@@ -7,6 +7,7 @@ import MyStackPanel from "./components/Technology/MyStackPanel";
 import type TechDataTypes from "./types/TechStackTypes";
 import { toast } from "react-toastify";
 import TechnologyHeader from "./components/Technology/TechnologyHeader";
+import SiteFooter from "./components/SiteFooter";
 
 const loadTechnologyData = async (): Promise<TechDataTypes[]> => {
   const response = await fetch("/data.json");
@@ -81,6 +82,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <SiteFooter />
     </main>
   );
 }
