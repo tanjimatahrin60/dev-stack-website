@@ -1,7 +1,7 @@
 const SiteFooter = () => {
   return (
     <footer className="footer footer-center p-10 bg-text-white text-base-content rounded border-t border-gray-100">
-      <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-380 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 text-left">
           <div className="flex flex-col items-start space-y-4 md:col-span-1">
             <div className="flex items-center">
